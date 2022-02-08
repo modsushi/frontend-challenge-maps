@@ -3,10 +3,28 @@
   align-items: center;
   height: 5rem;
   box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 9999;
 }
 
 .header > img {
   height: 4rem;
   width: 4rem;
   margin: 0.5rem;
+}
+
+
+.opt > label {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.opt > input {
+  cursor: pointer;
+}
+.search > .opt {
+  display: inline-flex;
+  margin-left: 30px;
 }
